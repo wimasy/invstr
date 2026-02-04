@@ -84,13 +84,13 @@ for win_rate, gain, loss in strategies:
         "N Trade": n_trading,
         "Kelly %": kelly_fraction,
         "Modal": f"{modal:,}",
-        "Modal Kelly": f"{modal_kelly:,.0f}%",
+        "Modal Kelly": f"{modal_kelly:,.0f}",
         "ROR Kelly": f"{ror_kelly:.2f}%",
-        "Modal 10%": f"{modal_10:,.0f}%",
+        "Modal 10%": f"{modal_10:,.0f}",
         "ROR 10%": f"{ror_10:.2f}%",
-        "Modal 25%": f"{modal_25:,.0f}%",
+        "Modal 25%": f"{modal_25:,.0f}",
         "ROR 25%": f"{ror_25:.2f}%",
-        "Modal 50%": f"{modal_50:,.0f}%",        
+        "Modal 50%": f"{modal_50:,.0f}",        
         "ROR 50%": f"{ror_50:.2f}%"
     })
 
