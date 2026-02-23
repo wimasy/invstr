@@ -44,7 +44,7 @@ for i in range(len(data)):
 print("Slope (A):", model.coef_[0])
 print("Intercept (B):", model.intercept_)
 
-data['Predicted'] = model.predict(X)
+data['Predicted'] = model.predict(data[['Return(n-1)']])
 
 plt.figure(figsize=(10,6))
 plt.scatter(data['Return(n-1)'], data['Return'], alpha=0.4, label='Return Aktual')
